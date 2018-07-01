@@ -1,0 +1,14 @@
+<<h2>
+  Welcome {{name.toUpperCase()}}
+  Sum 2+2 {{2+2}}
+
+</h2>
+<h1 [class.text-danger]="sucessclass">{{greetUser()}}</h1>
+<h1 [style.color]="hasError ? 'red' : 'green' ">Style Binding</h1>
+
+<button (click)="onclick($event)">Greet</button>
+
+<input #inpt type="text">
+<button (click)="logm(inpt.value)">Click</button>
+{{event}}
+ 

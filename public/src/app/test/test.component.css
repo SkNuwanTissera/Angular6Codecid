@@ -1,0 +1,12 @@
+div {
+    color: coral;
+}
+.text-special {
+    font-style: italic;
+    color :green ; 
+}
+
+.text-danger {
+    font-style: italic;
+    color :red ; 
+}
